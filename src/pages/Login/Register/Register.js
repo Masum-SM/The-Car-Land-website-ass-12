@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import useAuth from "../../../hooks/useAuth";
+import "./Register.css";
 
 const Register = () => {
   const [loginData, setLoginData] = useState({});
@@ -20,37 +21,64 @@ const Register = () => {
     e.preventDefault();
   };
   return (
-    <div>
-      <h2>Welcom to The Car Land</h2>
-      <div>
-        <form onSubmit={handleLogin} className="login-input">
-          <input
-            type="text"
-            name="name"
-            onBlur={handleOnBlur}
-            placeholder="Name"
+    <div className="container">
+      <h2 className="car-2nd-title mt-4">
+        Welcom to The <span>Car</span> Land
+      </h2>
+      <div className="row">
+        <div className="col-12">
+          <img
+            className="signin-img"
+            src="https://i.ibb.co/dmjvtxL/signup.png"
+            alt=""
           />
+        </div>
+        <div className="col-12 login-form-container">
+          <div>
+            <h2 className="car-2nd-title">
+              Please Give Your <span>Name</span> , <span>Email</span> &{" "}
+              <span>Password</span>
+            </h2>
+            <div className="login-frm">
+              <form onSubmit={handleLogin} className="login-input">
+                <input
+                  className="login-input-field"
+                  type="text"
+                  name="name"
+                  onBlur={handleOnBlur}
+                  placeholder="Name"
+                />
 
-          <input
-            type="email"
-            name="email"
-            onBlur={handleOnBlur}
-            placeholder="Email"
-          />
+                <input
+                  className="login-input-field"
+                  type="email"
+                  name="email"
+                  onBlur={handleOnBlur}
+                  placeholder="Email"
+                />
 
-          <input
-            type="password"
-            name="password"
-            onBlur={handleOnBlur}
-            placeholder="Password"
-          />
+                <input
+                  className="login-input-field"
+                  type="password"
+                  name="password"
+                  onBlur={handleOnBlur}
+                  placeholder="Password"
+                />
 
-          <button type="submit">Register</button>
+                <button className="login-input-field my-4" type="submit">
+                  Register
+                </button>
 
-          <p>
-            Alrady Registerd ? Please <Link to="login">Login</Link>
-          </p>
-        </form>
+                <p>
+                  Alrady Registerd ? Please{" "}
+                  <Link className="login-link-btn" to="login">
+                    Login
+                  </Link>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -25,30 +25,54 @@ const Login = () => {
   };
 
   return (
-    <div>
-      <h2>Welcom to The Car Land</h2>
-      <div>
-        <form onSubmit={handleLogin} className="login-input">
-          <input
-            type="email"
-            name="email"
-            onBlur={handleOnBlur}
-            placeholder="Email"
+    <div className="container">
+      <h2 className="car-2nd-title mt-4">
+        Welcom to The <span>Car</span> Land
+      </h2>
+      <div className="row">
+        <div className="col-12">
+          <img
+            className="login-img"
+            src="https://i.ibb.co/y5ssFHB/login.png"
+            alt=""
           />
+        </div>
 
-          <input
-            type="password"
-            name="password"
-            onBlur={handleOnBlur}
-            placeholder="Password"
-          />
+        <div className="col-12  login-form-container ">
+          <h2 className="car-2nd-title">
+            Please Give Your <span>Email</span> & <span>Password</span>
+          </h2>
+          <div className="login-frm">
+            <form onSubmit={handleLogin} className="login-input">
+              <input
+                className="login-input-field"
+                type="email"
+                name="email"
+                onBlur={handleOnBlur}
+                placeholder="Email"
+              />
 
-          <button type="submit">Login</button>
+              <input
+                className="login-input-field"
+                type="password"
+                name="password"
+                onBlur={handleOnBlur}
+                placeholder="Password"
+              />
 
-          <p>
-            New User? Please <Link to="register">Register</Link>
-          </p>
-        </form>
+              <button className="login-input-field my-4" type="submit">
+                Login
+              </button>
+
+              <p>
+                New User? Please{" "}
+                <Link className="login-link-btn" to="register">
+                  Register
+                </Link>
+              </p>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   );
