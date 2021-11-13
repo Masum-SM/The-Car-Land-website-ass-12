@@ -2,15 +2,27 @@
   /* display: flex;
       justify-content: space-between;
       align-items: center; */
-  background-color: black;
-  color: whitesmoke;
+  background-color: white;
+  color: black;
   padding: 5px 2px;
   width: 80%;
   margin: auto;
   margin-bottom: 20px;
+  box-shadow: 3px 1px 7px 2px #888888;
+  border-radius: 15px;
 }
 .order-img {
   width: 100px;
-  border: 2px solid orange;
+  border: 2px solid black;
   border-radius: 50%;
+}
+
+.order-btn {
+  color: rgb(170, 2, 2);
+  font-weight: 700;
+  background-color: white;
+  border: none;
+  padding: 3px 12px;
+  border-radius: 10px;
+  box-shadow: 3px 1px 7px 2px #888888;
 }

@@ -1,3 +1,21 @@
 .rating {
   color: orange;
 }
+.review-hd {
+  background-color: gray !important;
+  box-shadow: rgba(32, 30, 30, 0.897) 4px 3px 2px 3px;
+  width: 60%;
+  padding: 5px 10px;
+  color: whitesmoke;
+  /* border: 1px solid red; */
+  border-radius: 12px 8px 8px;
+  margin: auto;
+}
+.review-card {
+  background-color: whitesmoke !important;
+  box-shadow: rgb(149, 145, 145) 2px 2px 5px;
+}
+.review-des {
+  color: rgb(32, 28, 28);
+  text-align: justify;
+}

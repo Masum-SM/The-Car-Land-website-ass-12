@@ -47,10 +47,13 @@ const PlaceOrder = () => {
 
   return (
     <div className="w-75 mx-auto py-4">
+      <div>
+        <h2 className="brand-title mb-5">Welcome {user.displayName}</h2>
+      </div>
       <div className='row row-cols-1 row-cols-md-2 g-4"'>
         <div className="col">
-          <div className="card">
-            <img src={car.img} alt="" />
+          <div className="card px-5">
+            <img className="place-img" src={car.img} alt="" />
             <h4>{car.name}</h4>
             <p>
               <small>{car.des}</small>
@@ -58,10 +61,15 @@ const PlaceOrder = () => {
             <p>Cost : {car.price}</p>
           </div>
         </div>
-        <div className="card text-center ">
-          <div className="col mx-auto">
+
+        <div className=" col">
+          <div className="card text-center place-form-container ">
+            <h2 className="car-2nd-title my-3">
+              Please Give Your <span>All Information</span>
+            </h2>
+
             <form
-              className="placeorder-form mx-auto"
+              className="placeorder-form pt-3"
               onSubmit={handleSubmit(onSubmit)}
             >
               <input

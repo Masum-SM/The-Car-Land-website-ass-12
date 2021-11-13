@@ -5,8 +5,22 @@
   align-items: center;
 }
 
-.add-car form input,
+.addCar-form input,
 textarea {
-  width: 40%;
-  margin-bottom: 10px;
+  width: 60% !important;
+  margin-bottom: 20px;
+  border: none;
+  box-shadow: 2px 2px 4px gray;
+  border-radius: 10px;
+  padding: 6px 10px;
+}
+.addCar-text {
+  width: 60% !important;
+  margin-bottom: 30px;
+}
+
+.add-car-btn {
+  font-weight: 700;
+  font-size: 22px;
+  color: brown;
 }

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Car from "../Car/Car";
+import "./Cars.css";
 
 const Cars = () => {
   const [cars, setCars] = useState([]);
@@ -11,12 +12,12 @@ const Cars = () => {
   }, []);
 
   return (
-    <div id="cars">
+    <div id="cars" className="my-5">
       <div>
-        <h2 className="brand-title mb-5">Choose Your Dream Car.</h2>
+        <h2 className="brand-title mb-5">Choose Your Dream Car</h2>
       </div>
-      <h2>
-        Most recent cars for sale in <span> Bangladesh</span>
+      <h2 className="car-2nd-title">
+        Most recent <span>cars</span> for sale in Bangladesh
       </h2>
 
       <div className="row row-cols-1 row-cols-md-2 g-4 cars-container">

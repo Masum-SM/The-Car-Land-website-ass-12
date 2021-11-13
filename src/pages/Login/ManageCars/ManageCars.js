@@ -28,11 +28,15 @@ const ManageCars = () => {
 
   return (
     <div id="cars">
-      <h2>
-        Most recent cars for sale in <span> Bangladesh</span>
+      <h2 className="car-2nd-title mt-5">
+        The <span>car</span> Land
       </h2>
 
-      <div className="row row-cols-1 row-cols-md-2 g-4 cars-container">
+      <div>
+        <h2 className="brand-title mb-5">Manage All cars</h2>
+      </div>
+
+      <div className="row row-cols-1 row-cols-md-2 g-4 cars-container mb-4">
         {cars.map((car) => (
           <ManageCar
             key={car.id}

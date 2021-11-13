@@ -14,17 +14,15 @@ const Explore = ({ car }) => {
           <div className="card-body">
             <h5 className="card-title car-title">{name}</h5>
             <p className="card-text car-des">{des}</p>
-            <p>
-              <small>Category : {category}</small>
-            </p>
-            <p>
+            <div>
+              <small className="me-4">Category : {category}</small>
+
               <small>Fuel Type : {fuelType}</small>
-            </p>
+            </div>
           </div>
 
           <div className="card-footer">
             <small className="car-cost">Price : {price}</small>
-            {/* <button className='mb-3 bg-warning' onClick={hanldeOrder}>Book Now</button> */}
             <Link to={`/placeorder/${_id}`}>
               <button className="mb-3 booking-btn ms-3">Buy Now</button>
             </Link>

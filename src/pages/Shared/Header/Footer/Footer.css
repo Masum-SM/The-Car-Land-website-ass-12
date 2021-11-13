@@ -6,10 +6,16 @@
   color: white;
   margin: auto;
 }
+.social {
+  color: rgb(136, 2, 2);
+  font-family: monospace;
+  font-size: 22px;
+  font-weight: 600;
+}
 .footer-input {
   border-radius: 15px;
   padding-left: 7px;
-  border: 2px solid rgb(2, 2, 146);
+  border: 2px solid rgb(251, 178, 165);
 }
 .Quick-Links li a {
   margin-right: 10px;
@@ -23,7 +29,15 @@
   color: whitesmoke;
   font-size: 25px;
   margin-right: 12px;
-  border: 2px solid rgb(2, 2, 146);
+  border: 2px solid rgb(251, 178, 165);
   padding: 8px;
   border-radius: 12px;
+}
+.footer-btn {
+  margin-top: 10px;
+  padding: 1px 20px;
+  background-color: gray;
+  border: 2px solid rgb(251, 178, 165);
+  color: red;
+  border-radius: 10px;
 }

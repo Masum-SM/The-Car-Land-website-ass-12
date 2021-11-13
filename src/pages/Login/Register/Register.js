@@ -45,10 +45,10 @@ const Register = () => {
             placeholder="Password"
           />
 
-          <button type="submit">Login</button>
+          <button type="submit">Register</button>
 
           <p>
-            Alrady Registerd ? Please <Link to="login">Register</Link>
+            Alrady Registerd ? Please <Link to="login">Login</Link>
           </p>
         </form>
       </div>

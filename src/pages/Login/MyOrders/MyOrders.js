@@ -36,8 +36,14 @@ const MyOrders = () => {
   };
 
   return (
-    <div>
-      <h2>This is my Order :</h2>
+    <div className="my-5">
+      <h2 className="car-2nd-title">
+        Welcome <span className="wb-name"> {user?.displayName} </span>{" "}
+      </h2>
+      <div>
+        <h2 className="brand-title mb-5"> You Are Seeing Your All Orders</h2>
+      </div>
+
       {order.map((or) => (
         <MyOrder
           key={or._id}

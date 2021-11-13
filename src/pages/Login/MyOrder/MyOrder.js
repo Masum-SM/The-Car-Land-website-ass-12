@@ -17,7 +17,7 @@ const MyOrder = ({ or, handleDeleteOrder }) => {
         </div>
       </div>
       <button
-        className="log-icon my-1"
+        className="order-btn my-1"
         onClick={() => {
           handleDeleteOrder(_id);
         }}

@@ -30,7 +30,7 @@ const ManageCar = (props) => {
           </button> */}
 
           <button
-            className="mb-3 booking-btn ms-3"
+            className="mb-3 order-btn ms-3"
             onClick={() => {
               handleDeleteCar(_id);
             }}

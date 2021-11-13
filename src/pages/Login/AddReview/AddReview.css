@@ -1,0 +1,20 @@
+.review-form {
+  margin: auto;
+}
+.review-input input,
+textarea {
+  border-radius: 10px;
+
+  padding: 10px 4px;
+  width: 90% !important;
+  border: none;
+  box-shadow: 2px 2px 6px rgb(187, 185, 185);
+  margin-bottom: 15px;
+}
+.form-btn {
+  background-color: gray;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 24px;
+  box-shadow: -2px -2px 6px rgb(255, 251, 251);
+}

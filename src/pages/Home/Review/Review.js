@@ -7,16 +7,16 @@ const Review = ({ review }) => {
   const { name, email, des, rating } = review;
   return (
     <div className="col">
-      <div className="card h-100 border-success mb-3">
-        <div className="card-header bg-transparent border-success">
-          <h2>{name}</h2>
+      <div className="card h-100 review-card  mb-3">
+        <div className=" bg-transparent review-hd mt-4 ">
+          <h4>{name}</h4>
           <h6>{email}</h6>
         </div>
-        <div className="card-body text-success">
-          <h5 className="card-title">Success card title</h5>
-          <p className="card-text">{des}</p>
+        <div className="card-body">
+          <p className="card-text review-des">{des}</p>
         </div>
-        <div className="card-footer bg-transparent border-success">
+        <div className="mb-4 bg-transparent">
+          <small>Rating : </small>
           <Rating
             initialRating={rating}
             readonly
@@ -25,6 +25,7 @@ const Review = ({ review }) => {
             placeholderSymbol={<i className="fas fa-star-half-alt rating"></i>}
             fullSymbol={<i className="fas fa-star rating"></i>}
           />
+          <small>({rating})</small>
         </div>
       </div>
     </div>

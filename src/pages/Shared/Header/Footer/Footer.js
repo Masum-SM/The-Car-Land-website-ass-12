@@ -7,12 +7,12 @@ const Footer = () => {
     <div className="footer">
       <div className="container-fluid bg-dark">
         <div className="row py-4">
-          <div className="col-12 col-lg-6 ">
+          <div className="col-12 col-lg-4 ">
             <ul className=" text-center text-white list-unstyled">
               <h4>Get In Touch</h4>
 
               <li>
-                <p>If you are in this webside Please Subscribe</p>
+                <p>If you are in this website Please Subscribe</p>
               </li>
               <li>
                 <input
@@ -21,11 +21,34 @@ const Footer = () => {
                   placeholder="Email"
                 />
               </li>
-              <li className="btn service-butthon mt-2">Submit</li>
+
+              <button className="footer-btn">Send</button>
+            </ul>
+          </div>
+          <div className="col-12 col-lg-4 ">
+            <ul className=" text-center text-white list-unstyled">
+              <h4>Contact Us</h4>
+
+              <li>
+                <p>
+                  <i class="fas fa-map-marker-alt"></i> Car House Limited,1st
+                  floor,Lalbug ,Dhaka.
+                </p>
+                <p>
+                  <i class="fas fa-tty"></i> 02847657
+                </p>
+                <p>
+                  <i class="fas fa-phone-volume">0199999999</i>
+                </p>
+
+                <p>
+                  <i class="fas fa-envelope-open"></i>carland@gamil.com
+                </p>
+              </li>
             </ul>
           </div>
 
-          <div className="col-12 col-lg-6 ">
+          <div className="col-12 col-lg-4 ">
             <ul className="Quick-Links text-center text-white list-unstyled">
               <h4>Quick Links</h4>
               <div className="d-flex justify-content-center link">
@@ -33,16 +56,17 @@ const Footer = () => {
                   <Link to="/home">Home</Link>
                 </li>
                 <li>
-                  <Link to="services">Services</Link>
+                  <Link to="services">Cars</Link>
                 </li>
                 <li>
-                  <Link to="about">About Us</Link>
+                  <Link to="about">Explore</Link>
                 </li>
                 <li>
                   <Link to="/login">Log In</Link>
                 </li>
               </div>
             </ul>
+            <p className="social">Social networks & feeds</p>
             <div className="icon">
               <a href="https://www.facebook.com/">
                 {" "}

@@ -39,15 +39,16 @@ const ManageAllOrder = (props) => {
         </div>
       </div>
       <button
-        className="log-icon my-1"
+        className="order-btn my-1 me-2"
         onClick={() => {
           handleDeleteOrder(_id);
         }}
       >
         <i className="fas fa-trash-alt"></i> Remove Order
       </button>
+
       <button
-        className="log-icon my-1"
+        className="order-btn my-1"
         onClick={() => {
           handleStatus(_id);
         }}

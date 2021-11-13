@@ -1,0 +1,9 @@
+.car-2nd-title {
+  font-family: monospace;
+  font-weight: 800;
+}
+.car-2nd-title span {
+  color: rgb(182, 4, 4);
+  text-shadow: 2px 3px rgb(209, 205, 205);
+  text-transform: uppercase;
+}
