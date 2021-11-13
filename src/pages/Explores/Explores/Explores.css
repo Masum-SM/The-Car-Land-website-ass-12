@@ -1,0 +1,14 @@
+.cars-container {
+  width: 95%;
+  margin: auto;
+}
+.cars-title {
+  background-color: rgb(63, 63, 206);
+  color: whitesmoke;
+  line-height: 60px;
+  font-family: serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+  width: 95%;
+  margin: auto;
+}

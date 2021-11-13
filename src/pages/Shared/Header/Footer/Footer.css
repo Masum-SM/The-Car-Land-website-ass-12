@@ -1,0 +1,29 @@
+.footer {
+  background-color: black;
+  line-height: 30px;
+}
+.footer h2 {
+  color: white;
+  margin: auto;
+}
+.footer-input {
+  border-radius: 15px;
+  padding-left: 7px;
+  border: 2px solid rgb(2, 2, 146);
+}
+.Quick-Links li a {
+  margin-right: 10px;
+
+  color: white;
+
+  text-decoration: none;
+}
+
+.icon i {
+  color: whitesmoke;
+  font-size: 25px;
+  margin-right: 12px;
+  border: 2px solid rgb(2, 2, 146);
+  padding: 8px;
+  border-radius: 12px;
+}

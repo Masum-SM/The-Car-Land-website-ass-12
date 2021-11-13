@@ -1,0 +1,30 @@
+.car-col {
+  height: 100vh;
+}
+.car-title {
+  color: rgb(2, 2, 90);
+  font-family: serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.booking-btn {
+  padding: 4px 15px;
+  background-color: black;
+  color: whitesmoke;
+  border: 2px solid orange;
+  border-radius: 12px;
+}
+.car-des {
+  font-weight: 600;
+  text-align: justify;
+  color: black;
+}
+.car-cost {
+  color: rgb(1, 1, 94);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.car-img {
+  width: 100%;
+}

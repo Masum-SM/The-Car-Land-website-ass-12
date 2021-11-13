@@ -1,0 +1,10 @@
+.orders-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 4px solid orange;
+  width: 70%;
+  margin: auto;
+  font-family: serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}

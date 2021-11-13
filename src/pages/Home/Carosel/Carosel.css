@@ -1,0 +1,9 @@
+.image {
+  width: 100%;
+  height: 90vh;
+}
+
+.carosel-caption {
+  color: rgb(1, 110, 124);
+  font-weight: 700;
+}

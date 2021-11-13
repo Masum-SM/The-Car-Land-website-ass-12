@@ -1,0 +1,11 @@
+.login-input input {
+  width: 40%;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.login-input button {
+  width: 25%;
+  margin: auto;
+}

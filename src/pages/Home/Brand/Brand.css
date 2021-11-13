@@ -1,0 +1,24 @@
+/* .brand-col {
+  
+} */
+
+.brand-title {
+  background-color: rgb(226, 226, 226);
+  line-height: 50px;
+  box-shadow: 3px 1px 7px 2px #888888;
+  color: black;
+  text-shadow: 2px 2px 2px whitesmoke;
+  color: rgb(190, 2, 2);
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.brand-img {
+  padding: 25px;
+  box-shadow: 3px 1px 7px 2px #888888;
+}
+
+.brand-img img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}

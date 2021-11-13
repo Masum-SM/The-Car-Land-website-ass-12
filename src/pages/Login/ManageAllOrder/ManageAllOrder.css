@@ -1,0 +1,16 @@
+.order-info {
+  /* display: flex;
+      justify-content: space-between;
+      align-items: center; */
+  background-color: black;
+  color: whitesmoke;
+  padding: 5px 2px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.order-img {
+  width: 100px;
+  border: 2px solid orange;
+  border-radius: 50%;
+}

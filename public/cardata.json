@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Toyota Premio",
+    "img": "https://i.ibb.co/DYbSnM1/primio.png",
+    "des": "A flagship vehicle of Toyota, the Premio is the most popular model of Toyota in the whole world and most especially in Bangladesh. This Model has a strong build quality and a superior value for money. Mated with Variable Valve Timing with Intelligence (VVT-i) system that works to benefit in optimizing the fuel consumption and engine power. The Premio is an upscale and more luxurious sedan in comparison to the Toyota Allion sedan. ",
+    "category": "Toyota",
+    "fuelType": "Petrol",
+    "price": "40 lacs (BDT)"
+  },
+  {
+    "id": 2,
+    "name": "Toyota Axio",
+    "img": "https://i.ibb.co/q0fwMhF/axio.jpg",
+    "des": "The Toyota Axio is an excellent car that is best suited for single people and small-sized families. It is also popular with business people due to its good fuel economy and cheap maintenance costs. Most Toyota Axios imported into Bangladesh are manufactured for the JDM(Japanese Domestic Market). It has fuel efficiency better than the Fielder due to its lower weight.The Axio is an upscale and more luxurious sedan in comparison to the Toyota Allion sedan.",
+    "category": "Toyota",
+    "fuelType": "Petrol",
+    "price": "30 lacs (BDT)"
+  },
+  {
+    "id": 3,
+    "name": "Toyota Allion",
+    "img": "https://i.ibb.co/CmJxYf0/allion.jpg",
+    "des": "The Toyota Allion is the most balanced of these in terms of maintenance costs, fuel economy, and reliability. The seats are well padded with a headrest. Its CVT transmission and the VVT-I engine glides it effortlessly on the road thus makes it a very smooth car to drive. The dashboard is plain but the wood trim adds some touch of class. As Toyota is the most available brand in the county all the spare parts will be available and less costly.",
+    "category": "Toyota",
+    "fuelType": "Gasoline",
+    "price": "35 lacs (BDT)"
+  },
+  {
+    "id": 4,
+    "name": "Toyota Noah Hybrid",
+    "img": "https://i.ibb.co/SVYwfWv/noah.jpg",
+    "des": "The Toyota Noah Hybrid is an all-rounder car with a great interior and the cabins are spacious and very comfortable for 7 people. It is the perfect vehicle for a long and comfortable group outing. The Noah Hybrid is as fuel-efficient as possible, while also being powerful enough and very, very versatile for city driving. the Noah Hybrid is aided by an electric motor which adds enough zest with low-end torque to give a much better driving feel to it.",
+    "category": "Toyota",
+    "fuelType": "Petrol-Electric",
+    "price": "30 lacs (BDT)"
+  },
+  {
+    "id": 5,
+    "name": "Toyota Axio Fielder",
+    "img": "https://i.ibb.co/j3B1pKZ/axio-fielder.jpg",
+    "des": "The Toyota Axio Fielder is an ideal vehicle for business-minded people and is also a great family car that can carry kids and luggage on a long trip along with excellent fuel economy with its carrying capacity. The Axio interior might not be the most luxurious, but everything looks and feels durable and reasonable.The Axio is considered as the most fuel-efficient car in Bangladesh and provides everything essential in this price range. Being the authorized dealer.",
+    "category": "Toyota",
+    "fuelType": "Gasoline",
+    "price": "20 lacs (BDT)"
+  },
+  {
+    "id": 6,
+    "name": "Toyota Aqua",
+    "img": "https://i.ibb.co/LvBwmRH/aqua.jpg",
+    "des": "The Toyota Aqua is a supermini/subcompact full hybrid gasoline hatchback produced and marketed by Toyota. The Aqua is capable of going from 0- 100km/h in 10.7 seconds and is mated with the electric (CVT) and it’s only available in 2 wheel drive options. The aqua interior might not be the most luxurious, but everything looks and feels durable and reasonable. The Aqua is considered as the most fuel-efficient car in Bangladesh and provides everything essential in this price range.",
+    "category": "Toyota",
+    "fuelType": "Petrol",
+    "price": "27 lacs (BDT)"
+  },
+  {
+    "id": 7,
+    "name": "Toyota C-HR Hybrid",
+    "img": "https://i.ibb.co/TqzYL9m/C-HR.jpg",
+    "des": "The Toyota C-HR Hybrid is a subcompact crossover SUV with a stylish look and high fuel economy system. It has sporty handling, plenty of standard features, and youthful styling. powered by 4-cylinder 16-valve DOHC 1,797 cc petrol-electric engine. The interior has unique styling with diamond patterns on the door and dashboard surfaces. Ford Ecosport, Honda HR-V are the main competitors of this car. You don’t have to worry about spare parts as they are well available here in Bangladesh.",
+    "category": "Toyota",
+    "fuelType": "Petrol-Electric",
+    "price": "46 lacs (BDT)"
+  },
+  {
+    "id": 8,
+    "name": "Honda Vezel",
+    "img": "https://i.ibb.co/xf4QB4x/Vezel.png",
+    "des": "Honda Vezel is one of the fastest-growing and so popular car of Honda in Bangladesh. Though unfortunately, the official distributor of Honda, DHS motors is not import this model but still other importers selling reconditioned Vezel in Bangladesh. Depends on the model, feature, mileage, option grade etc,Ford Ecosport, Honda HR-V are the main competitors of this car. You don’t have to worry about spare parts as they are well available here in Bangladesh.",
+    "category": "Honda",
+    "fuelType": "Petrol",
+    "price": "37 lacs (BDT)"
+  },
+  {
+    "id": 9,
+    "name": "Toyota Probox",
+    "img": "https://i.ibb.co/tqR3yQ3/probox.png",
+    "des": "The Toyota Probox is a multi-functional car with a 1,496 cc petrol engine. It is commercially used as a vehicle for transporting goods and group outings. The Probox is also known as a multi-functional family car. Safety features like a rear ELR3 point seat belt, side-impact bar, centralized door lock are installed.  This model is equipped with the technology VVTi, Variable Valve Timing with intelligence for enhancing the engine performance. ",
+    "category": "Toyota",
+    "fuelType": "Petrol",
+    "price": "20 lacs (BDT)"
+  },
+  {
+    "id": 10,
+    "name": "Toyota Harrier",
+    "img": "https://i.ibb.co/C1bVH9p/Harrier.jpg",
+    "des": "The Toyota Harrier is powerful, spacious, easy to handle, and has a premium feel to it. The Harrier is a compact mid-size crossover SUV with luxury and advanced technology. It features Nanoe™ X Technology & S-FLOW Control for your comfort and fuel efficiency. This Harrier is suitable for any kind of road. In Bangladesh, all the spare parts of this model is available and cost-efficient so this could be your best choice. Mazda CX-5 2.5 Turbo .",
+    "category": "Toyota",
+    "fuelType": "Petrol",
+    "price": "80 lacs (BDT)"
+  }
+]
